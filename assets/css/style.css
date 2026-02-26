@@ -101,6 +101,11 @@ h2 {
     border: none;
 }
 
+/* Events */
+#events .table-responsive {
+    overflow-x: auto;
+}
+
 /* Footer / contact */
 
 #contact {
@@ -185,5 +190,11 @@ h2 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #events table {
+        font-size: 0.75rem;
     }
 }
